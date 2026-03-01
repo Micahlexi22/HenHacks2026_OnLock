@@ -273,7 +273,7 @@ def locking(state:State)->Page:
     '''User can select a file to lock'''
     state.locked = False
     return Page(state,[
-        Header("LOCK FILE),
+        Header("LOCK FILE"),
         "Please Choose A file You Would Like To Lock",
         change_background_color(Button("SELECT FILE",fileupload),"20B2AA"),
         change_background_color(Button("MAIN MENU",index),"20B2AA")
