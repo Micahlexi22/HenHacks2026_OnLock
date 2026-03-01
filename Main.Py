@@ -6,7 +6,7 @@ from PIL import Image as PIL_Image
 import piexif
 
 set_site_information(
-    authors: micj@udel.edu, Jninemh@udel.edu
+    authors: "Micah Johnson (micj@udel.edu), J'nine Hargrove (Jninemh@udel.edu)"
     description= """This project is a MockUp of an app created to lock and unlock 
     private files with ease. The app will be in a taskbar, and will easily allow 
     files to be locked and unlocked using a password."""
